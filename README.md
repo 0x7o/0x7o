@@ -1,4 +1,8 @@
-Hi there, I'm Danil, trying to make this world a little bit better.
+Hi, I'm Danil, an open source developer. I do useful projects for both developers and users. Take a look at my projects below and get to know me
+
+## My projects
+- KeyT5
+Trained T5 model for extracting keywords from text. Only the Russian language is supported. The model is freely available on huggingface
 
 If you have any questions or suggestions, write here:
 
