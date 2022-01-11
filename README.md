@@ -5,10 +5,15 @@ Hi, I'm Danil, an open source developer. I do useful projects for both developer
 
 in dev
 
-- ???. Linking models to generate a picture by text description
-- ???. Minimalistic news agrigator with personalizer. No open source
+- ??? Linking models to generate a picture by text description
+- ??? Minimalistic news agrigator with personalizer. No open source
 
+## Contact
 If you have any questions or suggestions, write here:
 
 - [Telegram](https://t.me/hljwi)
 - [me@0x7o.link](mailto:me@0x7o.link)
+
+## Follow me
+- [Habr](https://habr.com/ru/users/0x7o/)
+- [GitHub](https://github.com/0x7o)
