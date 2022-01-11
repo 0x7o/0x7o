@@ -1,4 +1,5 @@
 [![View site - GH Pages](https://img.shields.io/badge/View_site-0x7o.link-2ea44f?style=for-the-badge)](https://0x7o.link/)
+
 [![0x7o's GitHub stats](https://github-readme-stats.vercel.app/api?username=0x7o)](https://github.com/0x7o)
 
 Hi, I'm Danil, an open source developer. I do useful projects for both developers and users. Take a look at my projects below and get to know me
