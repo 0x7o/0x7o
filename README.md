@@ -22,4 +22,3 @@ If you have any questions or suggestions, write here:
 - [Habr](https://habr.com/ru/users/0x7o/)
 - [GitHub](https://github.com/0x7o)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=0x7o&repo=0x7o)](https://github.com/0x7o/0x7o)
