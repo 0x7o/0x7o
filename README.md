@@ -1,4 +1,4 @@
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://0x7o.link/)
+[![View site - GH Pages](https://img.shields.io/badge/View_site-0x7o.link-2ea44f?style=for-the-badge)](https://0x7o.link/)
 
 Hi, I'm Danil, an open source developer. I do useful projects for both developers and users. Take a look at my projects below and get to know me
 
