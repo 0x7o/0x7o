@@ -11,7 +11,7 @@ Hi, I'm Danil, an open source developer. I do useful projects for both developer
 If you have any questions or suggestions, write here:
 
 - [Telegram](https://t.me/hljwi)
-- [me@0x7o.link](mailto:me@0x7o.link)
+- [f-zv@bk.ru](mailto:f-zv@bk.ru)
 
 ## Follow me
 - [Habr](https://habr.com/ru/users/0x7o/)
