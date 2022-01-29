@@ -46,8 +46,10 @@ $("#form").on("submit", function(e) {
                                 console.log(msg)
                                 if (msg.in_queue == true || msg.count != 0) {
                                     $('#m').text('Ваш запрос поставлен в очередь :) Перед вами - ' + msg.count + ' человек(-а)')
-                                } else {
-                                    window.location.reload()
+                                }else if (msg.count == 0 || msg.in_queue == true) {
+                                    $('#m').text('Генерация...')
+                                }else if (msg.in_queue == false){
+                                    window.location.reload();
                                 }
                             }
                         })
