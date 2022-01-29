@@ -44,7 +44,7 @@ $("#form").on("submit", function(e) {
                             },
                             success: function(msg) {
                                 console.log(msg)
-                                if (msg.in_queue == true) {
+                                if (msg.in_queue == true || msg.count != 0) {
                                     $('#m').text('Ваш запрос поставлен в очередь :) Перед вами - ' + msg.count + ' человек(-а)')
                                 } else {
                                     window.location.reload()
