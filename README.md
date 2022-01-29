@@ -17,4 +17,5 @@ If you have any questions or suggestions, write here:
 ## Follow me
 - [Habr](https://habr.com/ru/users/0x7o/)
 - [GitHub](https://github.com/0x7o)
+- [Patreon](https://patreon.com/0x7o)
 
