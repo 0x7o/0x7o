@@ -11,7 +11,7 @@ $("#form").on("submit", function(e) {
     e.preventDefault();
     console.log('Sending data...')
     $("#s").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span class="visually-hidden">Loading...</span>')
-    //$('#s').attr('disabled', true);
+    $('#s').attr('disabled', true);
     $.ajax({
         url: '/game/preparation-text',
         method: 'post',
@@ -28,6 +28,7 @@ $("#form").on("submit", function(e) {
                     'text': jss.text,
                     'engine': $('input[name="engine"]').val(),
                     'key': $('input[name="key"]').val(),
+                    'act': $('input[name="text"]').val(),
                 },
                 success: function(msg) {
                     console.log(msg);
@@ -44,10 +45,10 @@ $("#form").on("submit", function(e) {
                             },
                             success: function(msg) {
                                 console.log(msg)
-                                if (msg.in_queue == true || msg.count != 0) {
-                                    $('#m').text('Ваш запрос поставлен в очередь :) Перед вами - ' + msg.count + ' человек(-а)')
-                                }else if (msg.count == 0 || msg.in_queue == true) {
-                                    $('#m').text('Генерация...')
+                                if (msg.in_queue == true && msg.count != 0) {
+                                    $('#t').val('Вы в очереди. Перед вами ' + msg.count + ' чел.');
+                                }else if (msg.count == 0 && msg.in_queue == true) {
+                                    $('#t').val('Генерация...');
                                 }else if (msg.in_queue == false){
                                     window.location.reload();
                                 }
