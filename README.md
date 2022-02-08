@@ -19,4 +19,5 @@ If you have any questions or suggestions, write here:
 - [Habr](https://habr.com/ru/users/0x7o/)
 - [GitHub](https://github.com/0x7o)
 - [Patreon](https://patreon.com/0x7o)
+- [DTF](https://dtf.ru/u/491004-0x7o)
 
