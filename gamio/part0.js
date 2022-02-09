@@ -48,7 +48,7 @@ $("#form").on("submit", function(e) {
                                 if (msg.in_queue == true && msg.count != 0) {
                                     $('#t').val('Вы в очереди. Перед вами ' + msg.count + ' чел.');
                                 }else if (msg.count == 0 && msg.in_queue == true) {
-                                    $('#t').val('Генерация...');
+                                    $('#t').val('Нейросеть думает...');
                                 }else if (msg.in_queue == false){
                                     window.location.reload();
                                 }
