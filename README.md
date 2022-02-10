@@ -6,7 +6,7 @@ Hi, I'm Danil, an open source developer. I do useful projects for both developer
 
 ## My projects
 - [KeyT5](https://github.com/0x7o/text2keywords). Trained T5 model for extracting keywords from text. Only the Russian language is supported. The model is freely available on huggingface
-- [gameGPT](https://github.com/0x7o/gameGPT). Trained ruGPT3 on Russian Choose Your Own Adventure stories
+- [gameGPT](https://github.com/0x7o/gameGPT). Trained GPT on Russian Choose Your Own Adventure stories
 - [Gamio](https://gamio.ru). The free shell for gameGPT
 
 ## Contact
