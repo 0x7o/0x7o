@@ -1,5 +1,5 @@
 [![View site - GH Pages](https://img.shields.io/badge/View_site-0x7o.link-2ea44f?style=for-the-badge)](https://0x7o.link/)
-[![Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Faceasin-patreon.herokuapp.com%2F0x7o&color=FF5441&label=Patreon&logo=Patreon&logoColor=FF5441&style=for-the-badge)](https://patreon.com/0x7o)
+[![Support me](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Faceasin-patreon.herokuapp.com%2F0x7o&color=FF5441&label=Patreon&logo=Patreon&logoColor=FF5441&style=for-the-badge)](https://patreon.com/0x7o)
 
 
 Hi, I'm Danil, an open source developer. I do useful projects for both developers and users. Take a look at my projects below and get to know me
