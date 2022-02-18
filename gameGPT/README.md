@@ -1,4 +1,6 @@
 # gameGPT
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=0x7o&repo=gameGPT)](https://github.com/0x7o/gameGPT)
+
 [![use.py Test](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml/badge.svg)](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml)
 
 Trained GPT2-XL on Choose Your Own Adventure stories
