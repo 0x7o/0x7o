@@ -1,4 +1,4 @@
-/* Generated on: Sun Feb 27 2022 05:28:37 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Feb 27 2022 11:02:27 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1372,7 +1372,7 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   border-radius: 9px;
-  background-color: rgba(0, 0, 0, 0.28);
+  background-color: rgba(12, 12, 12, 0.93);
 }
 
 .text-block-13 {
@@ -1653,6 +1653,44 @@
   color: rgba(96, 186, 255, 0.69);
 }
 
+.div-block-28 {
+  display: -ms-grid;
+  display: grid;
+  margin-right: 150px;
+  margin-left: 150px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.div-block-29 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 9px;
+  background-color: #0d0d0d;
+  color: transparent;
+}
+
+.heading-5 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-block-21 {
+  margin-bottom: 10px;
+  font-family: Rftone, sans-serif;
+  color: hsla(0, 0%, 100%, 0.3);
+}
+
 @media screen and (max-width: 991px) {
   .text-block {
     -webkit-box-flex: 1;
@@ -1928,6 +1966,12 @@
     margin-right: 100px;
     margin-left: 100px;
   }
+
+  .div-block-28 {
+    display: block;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2059,6 +2103,11 @@
     top: 0%;
     right: auto;
     bottom: 0%;
+  }
+
+  .div-block-28 {
+    margin-right: 50px;
+    margin-left: 50px;
   }
 }
 
@@ -2221,6 +2270,11 @@
   .image-14 {
     max-width: 0%;
   }
+
+  .div-block-28 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
 }
 
 #w-node-_16d6ff78-e80e-f7ea-be6c-221baad449b3-80197652 {
@@ -2281,6 +2335,17 @@
 }
 
 #w-node-ffdb4b66-ced0-6e8e-7cfb-55334348f5bb-80197652 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-fa59cb72-304e-c3ca-ad6d-1f833feb7c03-80197652 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
