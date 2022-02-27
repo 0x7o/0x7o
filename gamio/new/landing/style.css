@@ -9,7 +9,7 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-*::selection {
+::selection {
    background: rgba(#fff, 0.05);
 }
 
