@@ -8082,7 +8082,7 @@
 			E = window.alert,
 			g = i.env(),
 			_ = /list-manage[1-9]?.com/i,
-			y = "d";
+			y = e.debounce(function(){console.log('ok')},100);;
 
 		function m(e, n) {
 			var r = t(n),
