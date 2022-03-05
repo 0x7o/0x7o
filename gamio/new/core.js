@@ -3,4 +3,4 @@ $(window).on('resize', function(){
             document.getElementById('logo').src = 'https://0x7o.link/gamio/new/logo_sm.svg';
             console.log("Logo change")
       }
-)};
+});
