@@ -1,4 +1,4 @@
-/* Generated on: Thu Mar 03 2022 12:57:52 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 07 2022 07:41:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3310,6 +3310,7 @@ textarea.w-input,textarea.w-select {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-bottom: 20px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -4012,6 +4013,115 @@ textarea.w-input,textarea.w-select {
     font-family: Rftone, sans-serif;
     font-size: 18px;
     font-weight: 600;
+}
+
+.select-field {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.heading-7 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    color: hsla(0, 0%, 100%, 0.85);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.textarea {
+    margin-bottom: 0px;
+    border: 1px none #000;
+    border-radius: 9px 9px 0px 0px;
+    background-color: #111;
+    font-family: Rftone, sans-serif;
+}
+
+.form-block-4 {
+    margin-top: 15px;
+}
+
+.submit-button-3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 9px 9px;
+    background-color: rgba(0, 0, 0, 0.65);
+    font-family: Rftone, sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.div-block-34 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.div-block-35 {
+    border-radius: 100px;
+}
+
+.div-block-36 {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.div-block-37 {
+    max-width: 500px;
+    min-width: auto;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: #101010;
+}
+
+.text-block-22 {
+    font-family: Rftone, sans-serif;
+    color: #c5c5c5;
+    font-weight: 600;
+}
+
+.paragraph-5 {
+    margin-bottom: 0px;
+    font-family: Rftone, sans-serif;
+    color: #818181;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 991px) {
