@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 07 2022 07:53:26 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 07 2022 08:11:54 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3971,6 +3971,7 @@ textarea.w-input,textarea.w-select {
     border-radius: 5px 0px 0px 5px;
     background-color: #0c0c0c;
     font-family: Rftone, sans-serif;
+    color: hsla(0, 0%, 100%, 0.53);
     font-weight: 600;
 }
 
@@ -4122,6 +4123,43 @@ textarea.w-input,textarea.w-select {
     font-family: Rftone, sans-serif;
     color: #818181;
     font-weight: 400;
+}
+
+.form-block-5 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.text-field-3 {
+    border-radius: 9px;
+    background-color: #0c0c0c;
+}
+
+.form-3 {
+    margin-top: 20px;
+    padding: 20px;
+    border-style: none;
+    border-width: 2px;
+    border-color: #9c9c9c;
+    border-radius: 9px;
+    background-color: #161616;
+}
+
+.submit-button-4 {
+    margin-top: 10px;
+    border-radius: 2px;
+    background-color: #3b3b3b;
+    font-family: Rftone, sans-serif;
+    font-weight: 600;
+}
+
+.textarea-2 {
+    border: 1px none #000;
+    border-radius: 5px;
+    background-color: #0c0c0c;
+    font-family: Rftone, sans-serif;
+    color: hsla(0, 0%, 100%, 0.53);
+    font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {
@@ -4559,6 +4597,10 @@ textarea.w-input,textarea.w-select {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+
+    .form-3 {
+        padding: 10px;
     }
 }
 
