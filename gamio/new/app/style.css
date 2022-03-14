@@ -1,4 +1,4 @@
-/* Generated on: Sun Mar 13 2022 11:15:33 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 14 2022 07:22:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3868,19 +3868,25 @@ textarea.w-input,textarea.w-select {
     display: -ms-flexbox;
     display: flex;
     max-width: 500px;
-    margin: 0px;
+    margin: 0px 0px 0px 150px;
     padding: 20px 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
     border-radius: 9px;
-    background-color: rgba(0, 0, 0, 0.23);
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 .div-block-31 {
@@ -3897,10 +3903,10 @@ textarea.w-input,textarea.w-select {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -4485,6 +4491,17 @@ textarea.w-input,textarea.w-select {
         display: block;
         margin-right: 100px;
         margin-left: 100px;
+    }
+
+    .div-block-30 {
+        margin-left: 0px;
+    }
+
+    .div-block-31 {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
     .div-block-32 {
