@@ -2,7 +2,7 @@ $("#form").on("submit", function(e){
         e.preventDefault();
         $("main").animate({opacity: 0}, 1000);
         $("#loading").animate({opacity: 1}, 1000);
-        $("#s").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span class="visually-hidden">Loading...</span>')
+        $("#s").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span class="visually-hidden">Загрузка...</span>')
         $('#s').attr('disabled', true);
         console.log('Pending...')
 	$.ajax({
