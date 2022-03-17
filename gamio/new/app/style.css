@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 14 2022 07:22:09 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Mar 17 2022 08:43:33 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2180,6 +2180,85 @@ textarea.w-input,textarea.w-select {
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+.w-checkbox {
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.w-checkbox::before {
+    content: ' ';
+    display: table;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+}
+
+.w-checkbox::after {
+    content: ' ';
+    display: table;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    clear: both;
+}
+
+.w-checkbox-input {
+    float: left;
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-right: 0px;
+    margin-top: 4px;
+    line-height: normal;
+}
+
+.w-checkbox-input--inputType-custom {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: #ccc;
+    border-bottom-color: #ccc;
+    border-left-color: #ccc;
+    border-right-color: #ccc;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    width: 12px;
+    height: 12px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+    background-color: #3898ec;
+    border-top-color: #3898ec;
+    border-bottom-color: #3898ec;
+    border-left-color: #3898ec;
+    border-right-color: #3898ec;
+    background-image: url(https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+    box-shadow: 0px 0px 3px 1px #3898ec;
+}
+
 .w-layout-grid {
     display: -ms-grid;
     display: grid;
@@ -3884,9 +3963,10 @@ textarea.w-input,textarea.w-select {
     -ms-flex-align: stretch;
     align-items: stretch;
     border-radius: 9px;
-    background-color: transparent;
+    background-color: #0a0a0a;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    color: #616161;
 }
 
 .div-block-31 {
@@ -4209,6 +4289,65 @@ textarea.w-input,textarea.w-select {
     font-family: Rftone, sans-serif;
     color: #eee;
     font-weight: 600;
+}
+
+.checkbox-field {
+    margin-bottom: 0px;
+    font-family: Rftone, sans-serif;
+    color: #c5c5c5;
+}
+
+.checkbox {
+    background-color: #fff;
+    color: #fff;
+}
+
+.button-12 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #3b3b3b;
+    font-family: Rftone, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.div-block-41 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.button-13 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-height: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    margin-right: 10px;
+    padding: 6px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #181818;
 }
 
 @media screen and (max-width: 991px) {
