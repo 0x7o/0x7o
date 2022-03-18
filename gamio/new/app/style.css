@@ -1,4 +1,4 @@
-/* Generated on: Thu Mar 17 2022 09:27:23 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 18 2022 10:28:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2182,7 +2182,7 @@
   align-items: center;
   border-radius: 2px;
   background-color: #181818;
-  color: #a1a1a1;
+  color: #d6d6d6;
 }
 
 .div-block-42 {
@@ -2191,6 +2191,72 @@
   top: 52px;
   min-height: 0px;
   margin-top: auto;
+}
+
+.paragraph-6 {
+  font-family: Rftone, sans-serif;
+  color: #b9b9b9;
+}
+
+.form-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form-block-6 {
+  margin-bottom: 10px;
+}
+
+.textarea-3 {
+  margin-bottom: 0px;
+  border: 1px none #000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #0c0c0c;
+  outline-color: hsla(0, 0%, 100%, 0.53);
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+  font-family: Rftone, sans-serif;
+  color: hsla(0, 0%, 100%, 0.53);
+  font-weight: 600;
+}
+
+.button-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  height: auto;
+  min-height: auto;
+  padding: 28px 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #3b3b3b;
+  font-family: Rftone, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 @media screen and (max-width: 991px) {
