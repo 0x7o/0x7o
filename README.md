@@ -12,7 +12,7 @@ Hi, I'm Danil, an open source developer. I do useful projects for both developer
 ## Contact
 If you have any questions or suggestions, write here:
 
-- [Telegram](https://t.me/hljwi)
+- [Telegram](https://t.me/root0xo)
 - [me@0x7o.link](mailto:me@0x7o.link)
 
 ## Follow me
