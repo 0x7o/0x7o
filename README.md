@@ -9,7 +9,7 @@ Hi, I'm Danil, an open source developer. I do useful projects for both developer
 - [keyT5](https://0x7o.link/keyt5/). Trained T5 model for extracting keywords from text.
 - [gameGPT](https://0x7o.link/gameGPT/). Trained GPTs on Choose Your Own Adventure stories
 - [Gamio](https://gamio.ru). Web-shell for gameGPT
-- BulgakovLM. Russian-language model for a variety of textual tasks (WIP)
+- [BulgakovLM](https://github.com/0x7o/BulgakovLM). Russian-language model for a variety of textual tasks (WIP)
 
 ## Contact
 If you have any questions or suggestions, write here:
