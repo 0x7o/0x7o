@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 24 2022 08:44:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 24 2022 09:15:58 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2680,6 +2680,14 @@
   font-family: Rftone, sans-serif;
   color: #868686;
   font-size: 12px;
+}
+
+.image-16 {
+  max-height: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 9px;
 }
 
 @media screen and (max-width: 991px) {
